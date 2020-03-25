@@ -1,0 +1,10 @@
+path.resolve: 生成路由地址
+
+__dirname: 当前目录
+
+
+fs.readdirSync(pathStr):  参数为目录，读取该目录下所有的一级文件/文件夹，返回该文件夹自己的文件夹名或者文件名，只是自己的，不是完整的文件目录
+
+fs.statSync(filename): 参数为完整的文件目录，返回该文件信息对象。该对象有一个方法isDirectory,执行返回布尔值，如果是文件夹为true，反之为false
+
+taro build --type weapp --watch
