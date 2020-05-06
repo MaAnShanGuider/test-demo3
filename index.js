@@ -14,3 +14,9 @@ var [...arr2 ]= arr;
 console.log(arr2);
 
 console.log(arr.includes())
+
+for(var i = 0; i <= 5; i++) {
+	setTimeout(() => {
+		console.log(i);
+	}, 1000)
+}

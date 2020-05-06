@@ -10,3 +10,22 @@ fs.statSync(filename): 参数为完整的文件目录，返回该文件信息对
 taro build --type weapp --watch
 
 shfit + option + f: 格式化文件
+
+8609895188987904
+
+1. 订单未对接
+2. 团购详情未对接
+
+PersonCenter/GroupBuy
+缺少商品原价字段
+
+
+ PersonCenter/GroupBuy?CurPage=1&PageSize=10&status=1&consumerId=8609895188987904
+ 时间字段加上时分秒
+
+
+PersonCenter/GrouponDetail
+缺少商品原价字段 salePrice
+
+一个一个来，
+1. 权益商品
